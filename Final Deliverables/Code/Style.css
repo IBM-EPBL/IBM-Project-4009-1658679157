@@ -1,0 +1,65 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body
+{
+background-image: url(Heart.jpg);
+background-size: cover;
+background-position: center;
+font-family: sans-serif;
+}
+.menu-bar
+{
+background: rgba(0,0,100);
+text-align: center;
+}
+.menu-bar ul
+{
+display: inline-flex;
+list-style: none;
+color: #fff;
+}
+.menu-bar ul li
+{
+width: 200px;
+margin: 15px;
+padding: 20px;
+}
+.menu-bar ul li a
+{
+text-decoration: none;
+color: #fff;
+text-transform:uppercase;
+font-family:Arial;
+font-weight:bold;
+}
+.menu-bar ul li a: hover;
+{
+background-color: crimson;
+}
+.content
+{
+width:100%;
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+text-align:center;
+color:black;
+border: 5px outset red;
+background-color: lightblue;
+text-align: center;
+}
+.content h1
+{
+font-size:7-px;
+margin-top:80px;
+}
+.content p
+{
+margin:20px auto;
+font-weight:100;
+line-weight:25px;
+font-size:20px;
+]
